@@ -1,6 +1,6 @@
 # FastAPI Docs RAG — with a Real Retrieval Evaluation Harness
 
-![Eval Suite](https://github.com/<your-username>/<your-repo>/actions/workflows/eval.yml/badge.svg)
+![Eval Suite](https://github.com/vishnupriya1008/Rag-Eval-System/actions/workflows/eval.yml/badge.svg)
 
 A retrieval-augmented Q&A system over FastAPI's official documentation, built to answer one question rigorously: **does each design decision actually improve retrieval quality, or does it just feel like it should?**
 
