@@ -1,0 +1,15 @@
+# Core - needed for BM25, chunking, and evaluation (no downloads required)
+rank-bm25==0.2.2
+numpy>=1.26
+
+# Dense retrieval - needed for embeddings.py, vector_store.py's real usage,
+# and hybrid search. Requires internet access on first run to download
+# model weights (~130MB for the default bge-small model).
+sentence-transformers>=3.0
+
+# Local LLM generation - needed for generator.py. Requires internet access
+# on first run to download model weights (~1GB for the default Qwen2.5-1.5B).
+llama-cpp-python>=0.3
+
+# Testing
+pytest>=8.0

@@ -1,0 +1,64 @@
+name: Eval Suite
+
+# Two speeds, on purpose:
+#   - `test-and-eval` runs on every push/PR: unit tests + BM25-only eval,
+#     no model downloads, finishes in under a minute. This is the required
+#     check - it should never be slow enough that people start ignoring it.
+#   - `full-pipeline` runs dense + hybrid + reranker configs, which need to
+#     download real models from Hugging Face. GitHub's runners have full
+#     internet access (unlike the sandbox this project was originally built
+#     in), so this actually exercises the whole system - but it's slower,
+#     so it only runs weekly or on manual trigger, not on every commit.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"  # every Monday 06:00 UTC
+  workflow_dispatch: {}   # allows manual "Run workflow" from the Actions tab
+
+jobs:
+  test-and-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fast dependencies (no model downloads)
+        run: pip install rank-bm25 numpy pytest
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+      - name: Run BM25 eval + regression threshold check
+        run: python eval/check_thresholds.py
+
+  full-pipeline:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install full dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate embeddings (downloads embedding model)
+        run: python src/embeddings.py
+
+      - name: Run full eval (BM25 + dense + hybrid + reranker)
+        run: python eval/run_eval.py
+
+      - name: Upload eval results
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: eval/eval_results.json

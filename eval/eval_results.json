@@ -1,0 +1,2297 @@
+{
+  "BM25 + fixed-size chunks": {
+    "recall_at_k": 0.03333333333333333,
+    "mrr": 0.03333333333333333,
+    "k": 5,
+    "n_queries": 30,
+    "per_query": [
+      {
+        "query": "how do I add a background task",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "advanced\\advanced-dependencies.md",
+          "tutorial\\background-tasks.md",
+          "advanced\\advanced-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/background-tasks.md"
+        ]
+      },
+      {
+        "query": "how to handle CORS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\middleware.md",
+          "tutorial\\middleware.md",
+          "tutorial\\cors.md",
+          "advanced\\response-headers.md",
+          "tutorial\\middleware.md"
+        ],
+        "relevant": [
+          "tutorial/cors.md"
+        ]
+      },
+      {
+        "query": "dependency injection with yield and cleanup code",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\index.md",
+          "advanced\\advanced-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/dependencies/dependencies-with-yield.md"
+        ]
+      },
+      {
+        "query": "how to let users upload a file",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\request-files.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\bigger-applications.md"
+        ],
+        "relevant": [
+          "tutorial/request-files.md"
+        ]
+      },
+      {
+        "query": "add extra validation to query parameters",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\header-params.md",
+          "tutorial\\query-param-models.md",
+          "tutorial\\cookie-params.md"
+        ],
+        "relevant": [
+          "tutorial/query-params-str-validations.md"
+        ]
+      },
+      {
+        "query": "set the default HTTP status code for an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "tutorial\\response-status-code.md",
+          "tutorial\\response-status-code.md",
+          "how-to\\authentication-error-status-code.md"
+        ],
+        "relevant": [
+          "tutorial/response-status-code.md"
+        ]
+      },
+      {
+        "query": "return a different status code than the default at runtime",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "tutorial\\frontend.md",
+          "tutorial\\response-status-code.md"
+        ],
+        "relevant": [
+          "advanced/response-change-status-code.md"
+        ]
+      },
+      {
+        "query": "set cookies on a response",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-cookies.md",
+          "advanced\\response-headers.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-change-status-code.md",
+          "reference\\response.md"
+        ],
+        "relevant": [
+          "advanced/response-cookies.md"
+        ]
+      },
+      {
+        "query": "how to write tests for a FastAPI app",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\async-tests.md",
+          "tutorial\\testing.md",
+          "deployment\\versions.md",
+          "tutorial\\testing.md",
+          "advanced\\testing-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/testing.md"
+        ]
+      },
+      {
+        "query": "secure an API with OAuth2 and JWT tokens",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\security\\oauth2-jwt.md",
+          "features.md",
+          "tutorial\\security\\simple-oauth2.md",
+          "advanced\\security\\oauth2-scopes.md",
+          "how-to\\conditional-openapi.md"
+        ],
+        "relevant": [
+          "tutorial/security/oauth2-jwt.md"
+        ]
+      },
+      {
+        "query": "serve static files like images or CSS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\staticfiles.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "advanced\\templates.md",
+          "how-to\\custom-docs-ui-assets.md"
+        ],
+        "relevant": [
+          "tutorial/static-files.md"
+        ]
+      },
+      {
+        "query": "deploy a FastAPI app using Docker",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "tutorial\\first-steps.md",
+          "tutorial\\first-steps.md",
+          "index.md"
+        ],
+        "relevant": [
+          "deployment/docker.md"
+        ]
+      },
+      {
+        "query": "run the app behind a reverse proxy like nginx",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "advanced\\behind-a-proxy.md",
+          "deployment\\docker.md",
+          "deployment\\concepts.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/behind-a-proxy.md"
+        ]
+      },
+      {
+        "query": "add websocket support to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\testing-websockets.md",
+          "alternatives.md",
+          "advanced\\websockets.md"
+        ],
+        "relevant": [
+          "advanced/websockets.md"
+        ]
+      },
+      {
+        "query": "define deeply nested request body models",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "features.md",
+          "alternatives.md"
+        ],
+        "relevant": [
+          "tutorial/body-nested-models.md"
+        ]
+      },
+      {
+        "query": "mix path, query, and body parameters together",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body.md",
+          "tutorial\\body-fields.md"
+        ],
+        "relevant": [
+          "tutorial/body-multiple-params.md"
+        ]
+      },
+      {
+        "query": "validate that a path parameter is within a numeric range",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\handling-errors.md",
+          "index.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\async-tests.md"
+        ],
+        "relevant": [
+          "tutorial/path-params-numeric-validations.md"
+        ]
+      },
+      {
+        "query": "return custom error responses to the client",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-headers.md",
+          "tutorial\\handling-errors.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\handling-errors.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md"
+        ],
+        "relevant": [
+          "tutorial/handling-errors.md"
+        ]
+      },
+      {
+        "query": "generate a typed client SDK from the API",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md"
+        ],
+        "relevant": [
+          "advanced/generate-clients.md"
+        ]
+      },
+      {
+        "query": "stream server-sent events to the browser",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\server-sent-events.md",
+          "reference\\sse.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\stream-json-lines.md",
+          "advanced\\openapi-callbacks.md"
+        ],
+        "relevant": [
+          "reference/sse.md",
+          "tutorial/server-sent-events.md"
+        ]
+      },
+      {
+        "query": "run the app with multiple worker processes",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\concepts.md",
+          "deployment\\docker.md",
+          "deployment\\server-workers.md",
+          "deployment\\concepts.md",
+          "deployment\\docker.md"
+        ],
+        "relevant": [
+          "deployment/server-workers.md"
+        ]
+      },
+      {
+        "query": "mount one FastAPI app inside another",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\bigger-applications.md",
+          "advanced\\wsgi.md"
+        ],
+        "relevant": [
+          "advanced/sub-applications.md"
+        ]
+      },
+      {
+        "query": "render HTML using Jinja templates",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "reference\\templating.md",
+          "advanced\\templates.md",
+          "reference\\responses.md"
+        ],
+        "relevant": [
+          "advanced/templates.md"
+        ]
+      },
+      {
+        "query": "accept file uploads and form fields in the same request",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-form-models.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms.md"
+        ],
+        "relevant": [
+          "tutorial/request-forms-and-files.md"
+        ]
+      },
+      {
+        "query": "add HTTP Basic Auth to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\security\\http-basic-auth.md",
+          "index.md",
+          "index.md",
+          "tutorial\\security\\index.md",
+          "contributing.md"
+        ],
+        "relevant": [
+          "advanced/security/http-basic-auth.md"
+        ]
+      },
+      {
+        "query": "notify another app's API from your own app using webhooks",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-callbacks.md",
+          "tutorial\\bigger-applications.md"
+        ],
+        "relevant": [
+          "advanced/openapi-webhooks.md"
+        ]
+      },
+      {
+        "query": "use GraphQL instead of REST",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "tutorial\\response-model.md",
+          "alternatives.md",
+          "deployment\\docker.md"
+        ],
+        "relevant": [
+          "how-to/graphql.md"
+        ]
+      },
+      {
+        "query": "migrate an app from Pydantic v1 to v2",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ],
+        "relevant": [
+          "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ]
+      },
+      {
+        "query": "disable the interactive docs UI in production",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\behind-a-proxy.md",
+          "how-to\\configure-swagger-ui.md",
+          "tutorial\\metadata.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "tutorial\\first-steps.md"
+        ],
+        "relevant": [
+          "how-to/conditional-openapi.md"
+        ]
+      },
+      {
+        "query": "understand async def versus regular def in path operations",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "retrieved": [
+          "async.md",
+          "advanced\\dataclasses.md",
+          "async.md",
+          "tutorial\\dependencies\\index.md",
+          "async.md"
+        ],
+        "relevant": [
+          "async.md"
+        ]
+      }
+    ]
+  },
+  "BM25 + heading-aware chunks": {
+    "recall_at_k": 0.03333333333333333,
+    "mrr": 0.008333333333333333,
+    "k": 5,
+    "n_queries": 30,
+    "per_query": [
+      {
+        "query": "how do I add a background task",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "advanced\\advanced-dependencies.md",
+          "async.md"
+        ],
+        "relevant": [
+          "tutorial/background-tasks.md"
+        ]
+      },
+      {
+        "query": "how to handle CORS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\middleware.md",
+          "tutorial\\middleware.md",
+          "advanced\\response-headers.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md"
+        ],
+        "relevant": [
+          "tutorial/cors.md"
+        ]
+      },
+      {
+        "query": "dependency injection with yield and cleanup code",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\index.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "advanced\\advanced-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/dependencies/dependencies-with-yield.md"
+        ]
+      },
+      {
+        "query": "how to let users upload a file",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\request-files.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\path-params.md"
+        ],
+        "relevant": [
+          "tutorial/request-files.md"
+        ]
+      },
+      {
+        "query": "add extra validation to query parameters",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-param-models.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\header-params.md"
+        ],
+        "relevant": [
+          "tutorial/query-params-str-validations.md"
+        ]
+      },
+      {
+        "query": "set the default HTTP status code for an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-change-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md"
+        ],
+        "relevant": [
+          "tutorial/response-status-code.md"
+        ]
+      },
+      {
+        "query": "return a different status code than the default at runtime",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\response-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md"
+        ],
+        "relevant": [
+          "advanced/response-change-status-code.md"
+        ]
+      },
+      {
+        "query": "set cookies on a response",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-headers.md",
+          "advanced\\response-change-status-code.md"
+        ],
+        "relevant": [
+          "advanced/response-cookies.md"
+        ]
+      },
+      {
+        "query": "how to write tests for a FastAPI app",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\async-tests.md",
+          "deployment\\versions.md",
+          "advanced\\openapi-callbacks.md",
+          "tutorial\\testing.md",
+          "advanced\\async-tests.md"
+        ],
+        "relevant": [
+          "tutorial/testing.md"
+        ]
+      },
+      {
+        "query": "secure an API with OAuth2 and JWT tokens",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\simple-oauth2.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md"
+        ],
+        "relevant": [
+          "tutorial/security/oauth2-jwt.md"
+        ]
+      },
+      {
+        "query": "serve static files like images or CSS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\staticfiles.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md"
+        ],
+        "relevant": [
+          "tutorial/static-files.md"
+        ]
+      },
+      {
+        "query": "deploy a FastAPI app using Docker",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "tutorial\\first-steps.md",
+          "deployment\\docker.md",
+          "index.md"
+        ],
+        "relevant": [
+          "deployment/docker.md"
+        ]
+      },
+      {
+        "query": "run the app behind a reverse proxy like nginx",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/behind-a-proxy.md"
+        ]
+      },
+      {
+        "query": "add websocket support to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "alternatives.md",
+          "reference\\websockets.md",
+          "advanced\\settings.md"
+        ],
+        "relevant": [
+          "advanced/websockets.md"
+        ]
+      },
+      {
+        "query": "define deeply nested request body models",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md"
+        ],
+        "relevant": [
+          "tutorial/body-nested-models.md"
+        ]
+      },
+      {
+        "query": "mix path, query, and body parameters together",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-fields.md",
+          "tutorial\\body.md"
+        ],
+        "relevant": [
+          "tutorial/body-multiple-params.md"
+        ]
+      },
+      {
+        "query": "validate that a path parameter is within a numeric range",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\handling-errors.md",
+          "index.md"
+        ],
+        "relevant": [
+          "tutorial/path-params-numeric-validations.md"
+        ]
+      },
+      {
+        "query": "return custom error responses to the client",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "advanced\\custom-response.md",
+          "tutorial\\handling-errors.md",
+          "tutorial\\handling-errors.md",
+          "tutorial\\handling-errors.md"
+        ],
+        "relevant": [
+          "tutorial/handling-errors.md"
+        ]
+      },
+      {
+        "query": "generate a typed client SDK from the API",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md"
+        ],
+        "relevant": [
+          "advanced/generate-clients.md"
+        ]
+      },
+      {
+        "query": "stream server-sent events to the browser",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\stream-json-lines.md",
+          "tutorial\\server-sent-events.md"
+        ],
+        "relevant": [
+          "reference/sse.md",
+          "tutorial/server-sent-events.md"
+        ]
+      },
+      {
+        "query": "run the app with multiple worker processes",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "deployment\\concepts.md",
+          "deployment\\server-workers.md",
+          "deployment\\concepts.md"
+        ],
+        "relevant": [
+          "deployment/server-workers.md"
+        ]
+      },
+      {
+        "query": "mount one FastAPI app inside another",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\bigger-applications.md",
+          "advanced\\sub-applications.md"
+        ],
+        "relevant": [
+          "advanced/sub-applications.md"
+        ]
+      },
+      {
+        "query": "render HTML using Jinja templates",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "reference\\templating.md",
+          "advanced\\templates.md"
+        ],
+        "relevant": [
+          "advanced/templates.md"
+        ]
+      },
+      {
+        "query": "accept file uploads and form fields in the same request",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-form-models.md"
+        ],
+        "relevant": [
+          "tutorial/request-forms-and-files.md"
+        ]
+      },
+      {
+        "query": "add HTTP Basic Auth to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md"
+        ],
+        "relevant": [
+          "advanced/security/http-basic-auth.md"
+        ]
+      },
+      {
+        "query": "notify another app's API from your own app using webhooks",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md"
+        ],
+        "relevant": [
+          "advanced/openapi-webhooks.md"
+        ]
+      },
+      {
+        "query": "use GraphQL instead of REST",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md"
+        ],
+        "relevant": [
+          "how-to/graphql.md"
+        ]
+      },
+      {
+        "query": "migrate an app from Pydantic v1 to v2",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ],
+        "relevant": [
+          "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ]
+      },
+      {
+        "query": "disable the interactive docs UI in production",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\configure-swagger-ui.md",
+          "tutorial\\metadata.md",
+          "index.md"
+        ],
+        "relevant": [
+          "how-to/conditional-openapi.md"
+        ]
+      },
+      {
+        "query": "understand async def versus regular def in path operations",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.25,
+        "retrieved": [
+          "tutorial\\dependencies\\index.md",
+          "advanced\\dataclasses.md",
+          "advanced\\stream-data.md",
+          "async.md",
+          "index.md"
+        ],
+        "relevant": [
+          "async.md"
+        ]
+      }
+    ]
+  },
+  "Dense only + heading-aware chunks": {
+    "recall_at_k": 0.03333333333333333,
+    "mrr": 0.03333333333333333,
+    "k": 5,
+    "n_queries": 30,
+    "per_query": [
+      {
+        "query": "how do I add a background task",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "reference\\background.md",
+          "tutorial\\background-tasks.md"
+        ],
+        "relevant": [
+          "tutorial/background-tasks.md"
+        ]
+      },
+      {
+        "query": "how to handle CORS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\cors.md",
+          "advanced\\middleware.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md"
+        ],
+        "relevant": [
+          "tutorial/cors.md"
+        ]
+      },
+      {
+        "query": "dependency injection with yield and cleanup code",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "advanced\\advanced-dependencies.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "advanced\\advanced-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/dependencies/dependencies-with-yield.md"
+        ]
+      },
+      {
+        "query": "how to let users upload a file",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "reference\\uploadfile.md"
+        ],
+        "relevant": [
+          "tutorial/request-files.md"
+        ]
+      },
+      {
+        "query": "add extra validation to query parameters",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md"
+        ],
+        "relevant": [
+          "tutorial/query-params-str-validations.md"
+        ]
+      },
+      {
+        "query": "set the default HTTP status code for an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\response-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md"
+        ],
+        "relevant": [
+          "tutorial/response-status-code.md"
+        ]
+      },
+      {
+        "query": "return a different status code than the default at runtime",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\response-change-status-code.md"
+        ],
+        "relevant": [
+          "advanced/response-change-status-code.md"
+        ]
+      },
+      {
+        "query": "set cookies on a response",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-headers.md",
+          "reference\\response.md"
+        ],
+        "relevant": [
+          "advanced/response-cookies.md"
+        ]
+      },
+      {
+        "query": "how to write tests for a FastAPI app",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\testing.md",
+          "advanced\\async-tests.md",
+          "tutorial\\testing.md",
+          "deployment\\versions.md",
+          "tutorial\\testing.md"
+        ],
+        "relevant": [
+          "tutorial/testing.md"
+        ]
+      },
+      {
+        "query": "secure an API with OAuth2 and JWT tokens",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\simple-oauth2.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\simple-oauth2.md"
+        ],
+        "relevant": [
+          "tutorial/security/oauth2-jwt.md"
+        ]
+      },
+      {
+        "query": "serve static files like images or CSS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\staticfiles.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "tutorial\\static-files.md",
+          "advanced\\templates.md",
+          "how-to\\custom-docs-ui-assets.md"
+        ],
+        "relevant": [
+          "tutorial/static-files.md"
+        ]
+      },
+      {
+        "query": "deploy a FastAPI app using Docker",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "deployment\\fastapicloud.md",
+          "index.md"
+        ],
+        "relevant": [
+          "deployment/docker.md"
+        ]
+      },
+      {
+        "query": "run the app behind a reverse proxy like nginx",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/behind-a-proxy.md"
+        ]
+      },
+      {
+        "query": "add websocket support to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md"
+        ],
+        "relevant": [
+          "advanced/websockets.md"
+        ]
+      },
+      {
+        "query": "define deeply nested request body models",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md"
+        ],
+        "relevant": [
+          "tutorial/body-nested-models.md"
+        ]
+      },
+      {
+        "query": "mix path, query, and body parameters together",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body.md",
+          "tutorial\\query-params.md",
+          "tutorial\\body-multiple-params.md"
+        ],
+        "relevant": [
+          "tutorial/body-multiple-params.md"
+        ]
+      },
+      {
+        "query": "validate that a path parameter is within a numeric range",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params.md"
+        ],
+        "relevant": [
+          "tutorial/path-params-numeric-validations.md"
+        ]
+      },
+      {
+        "query": "return custom error responses to the client",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\handling-errors.md",
+          "reference\\responses.md",
+          "advanced\\response-directly.md",
+          "advanced\\custom-response.md",
+          "tutorial\\handling-errors.md"
+        ],
+        "relevant": [
+          "tutorial/handling-errors.md"
+        ]
+      },
+      {
+        "query": "generate a typed client SDK from the API",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md"
+        ],
+        "relevant": [
+          "advanced/generate-clients.md"
+        ]
+      },
+      {
+        "query": "stream server-sent events to the browser",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\server-sent-events.md",
+          "reference\\sse.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\stream-json-lines.md"
+        ],
+        "relevant": [
+          "reference/sse.md",
+          "tutorial/server-sent-events.md"
+        ]
+      },
+      {
+        "query": "run the app with multiple worker processes",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\concepts.md",
+          "deployment\\server-workers.md",
+          "deployment\\docker.md",
+          "deployment\\concepts.md",
+          "tutorial\\background-tasks.md"
+        ],
+        "relevant": [
+          "deployment/server-workers.md"
+        ]
+      },
+      {
+        "query": "mount one FastAPI app inside another",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md"
+        ],
+        "relevant": [
+          "advanced/sub-applications.md"
+        ]
+      },
+      {
+        "query": "render HTML using Jinja templates",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\templating.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md"
+        ],
+        "relevant": [
+          "advanced/templates.md"
+        ]
+      },
+      {
+        "query": "accept file uploads and form fields in the same request",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md"
+        ],
+        "relevant": [
+          "tutorial/request-forms-and-files.md"
+        ]
+      },
+      {
+        "query": "add HTTP Basic Auth to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md"
+        ],
+        "relevant": [
+          "advanced/security/http-basic-auth.md"
+        ]
+      },
+      {
+        "query": "notify another app's API from your own app using webhooks",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md"
+        ],
+        "relevant": [
+          "advanced/openapi-webhooks.md"
+        ]
+      },
+      {
+        "query": "use GraphQL instead of REST",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md"
+        ],
+        "relevant": [
+          "how-to/graphql.md"
+        ]
+      },
+      {
+        "query": "migrate an app from Pydantic v1 to v2",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ],
+        "relevant": [
+          "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ]
+      },
+      {
+        "query": "disable the interactive docs UI in production",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "tutorial\\metadata.md",
+          "how-to\\conditional-openapi.md",
+          "deployment\\docker.md"
+        ],
+        "relevant": [
+          "how-to/conditional-openapi.md"
+        ]
+      },
+      {
+        "query": "understand async def versus regular def in path operations",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "retrieved": [
+          "async.md",
+          "async.md",
+          "async.md",
+          "async.md",
+          "tutorial\\dependencies\\index.md"
+        ],
+        "relevant": [
+          "async.md"
+        ]
+      }
+    ]
+  },
+  "Hybrid (BM25 + dense) + heading-aware chunks": {
+    "recall_at_k": 0.03333333333333333,
+    "mrr": 0.016666666666666666,
+    "k": 5,
+    "n_queries": 30,
+    "per_query": [
+      {
+        "query": "how do I add a background task",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "advanced\\advanced-dependencies.md"
+        ],
+        "relevant": [
+          "tutorial/background-tasks.md"
+        ]
+      },
+      {
+        "query": "how to handle CORS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\middleware.md",
+          "tutorial\\middleware.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md"
+        ],
+        "relevant": [
+          "tutorial/cors.md"
+        ]
+      },
+      {
+        "query": "dependency injection with yield and cleanup code",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "advanced\\advanced-dependencies.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md"
+        ],
+        "relevant": [
+          "tutorial/dependencies/dependencies-with-yield.md"
+        ]
+      },
+      {
+        "query": "how to let users upload a file",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\bigger-applications.md",
+          "tutorial\\dependencies\\index.md",
+          "tutorial\\request-files.md"
+        ],
+        "relevant": [
+          "tutorial/request-files.md"
+        ]
+      },
+      {
+        "query": "add extra validation to query parameters",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\query-params-str-validations.md"
+        ],
+        "relevant": [
+          "tutorial/query-params-str-validations.md"
+        ]
+      },
+      {
+        "query": "set the default HTTP status code for an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md"
+        ],
+        "relevant": [
+          "tutorial/response-status-code.md"
+        ]
+      },
+      {
+        "query": "return a different status code than the default at runtime",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md"
+        ],
+        "relevant": [
+          "advanced/response-change-status-code.md"
+        ]
+      },
+      {
+        "query": "set cookies on a response",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-headers.md",
+          "reference\\response.md"
+        ],
+        "relevant": [
+          "advanced/response-cookies.md"
+        ]
+      },
+      {
+        "query": "how to write tests for a FastAPI app",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\async-tests.md",
+          "deployment\\versions.md",
+          "tutorial\\testing.md",
+          "tutorial\\first-steps.md",
+          "tutorial\\testing.md"
+        ],
+        "relevant": [
+          "tutorial/testing.md"
+        ]
+      },
+      {
+        "query": "secure an API with OAuth2 and JWT tokens",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\simple-oauth2.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md"
+        ],
+        "relevant": [
+          "tutorial/security/oauth2-jwt.md"
+        ]
+      },
+      {
+        "query": "serve static files like images or CSS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\staticfiles.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "advanced\\templates.md"
+        ],
+        "relevant": [
+          "tutorial/static-files.md"
+        ]
+      },
+      {
+        "query": "deploy a FastAPI app using Docker",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "index.md",
+          "deployment\\docker.md",
+          "deployment\\docker.md"
+        ],
+        "relevant": [
+          "deployment/docker.md"
+        ]
+      },
+      {
+        "query": "run the app behind a reverse proxy like nginx",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\behind-a-proxy.md",
+          "deployment\\docker.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/behind-a-proxy.md"
+        ]
+      },
+      {
+        "query": "add websocket support to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "reference\\websockets.md",
+          "advanced\\websockets.md"
+        ],
+        "relevant": [
+          "advanced/websockets.md"
+        ]
+      },
+      {
+        "query": "define deeply nested request body models",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md"
+        ],
+        "relevant": [
+          "tutorial/body-nested-models.md"
+        ]
+      },
+      {
+        "query": "mix path, query, and body parameters together",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body.md",
+          "tutorial\\body.md"
+        ],
+        "relevant": [
+          "tutorial/body-multiple-params.md"
+        ]
+      },
+      {
+        "query": "validate that a path parameter is within a numeric range",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md"
+        ],
+        "relevant": [
+          "tutorial/path-params-numeric-validations.md"
+        ]
+      },
+      {
+        "query": "return custom error responses to the client",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\handling-errors.md",
+          "advanced\\custom-response.md",
+          "reference\\responses.md",
+          "tutorial\\handling-errors.md",
+          "tutorial\\handling-errors.md"
+        ],
+        "relevant": [
+          "tutorial/handling-errors.md"
+        ]
+      },
+      {
+        "query": "generate a typed client SDK from the API",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md"
+        ],
+        "relevant": [
+          "advanced/generate-clients.md"
+        ]
+      },
+      {
+        "query": "stream server-sent events to the browser",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "reference\\sse.md",
+          "tutorial\\stream-json-lines.md"
+        ],
+        "relevant": [
+          "reference/sse.md",
+          "tutorial/server-sent-events.md"
+        ]
+      },
+      {
+        "query": "run the app with multiple worker processes",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\server-workers.md",
+          "deployment\\docker.md",
+          "deployment\\concepts.md",
+          "deployment\\concepts.md"
+        ],
+        "relevant": [
+          "deployment/server-workers.md"
+        ]
+      },
+      {
+        "query": "mount one FastAPI app inside another",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/sub-applications.md"
+        ]
+      },
+      {
+        "query": "render HTML using Jinja templates",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\templates.md",
+          "reference\\templating.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md"
+        ],
+        "relevant": [
+          "advanced/templates.md"
+        ]
+      },
+      {
+        "query": "accept file uploads and form fields in the same request",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md"
+        ],
+        "relevant": [
+          "tutorial/request-forms-and-files.md"
+        ]
+      },
+      {
+        "query": "add HTTP Basic Auth to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md"
+        ],
+        "relevant": [
+          "advanced/security/http-basic-auth.md"
+        ]
+      },
+      {
+        "query": "notify another app's API from your own app using webhooks",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md"
+        ],
+        "relevant": [
+          "advanced/openapi-webhooks.md"
+        ]
+      },
+      {
+        "query": "use GraphQL instead of REST",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md"
+        ],
+        "relevant": [
+          "how-to/graphql.md"
+        ]
+      },
+      {
+        "query": "migrate an app from Pydantic v1 to v2",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ],
+        "relevant": [
+          "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ]
+      },
+      {
+        "query": "disable the interactive docs UI in production",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "tutorial\\metadata.md",
+          "how-to\\configure-swagger-ui.md",
+          "deployment\\docker.md"
+        ],
+        "relevant": [
+          "how-to/conditional-openapi.md"
+        ]
+      },
+      {
+        "query": "understand async def versus regular def in path operations",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 0.5,
+        "retrieved": [
+          "tutorial\\dependencies\\index.md",
+          "async.md",
+          "async.md",
+          "async.md",
+          "advanced\\dataclasses.md"
+        ],
+        "relevant": [
+          "async.md"
+        ]
+      }
+    ]
+  },
+  "Hybrid + cross-encoder reranker": {
+    "recall_at_k": 0.03333333333333333,
+    "mrr": 0.03333333333333333,
+    "k": 5,
+    "n_queries": 30,
+    "per_query": [
+      {
+        "query": "how do I add a background task",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md",
+          "tutorial\\background-tasks.md"
+        ],
+        "relevant": [
+          "tutorial/background-tasks.md"
+        ]
+      },
+      {
+        "query": "how to handle CORS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\middleware.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md",
+          "tutorial\\cors.md"
+        ],
+        "relevant": [
+          "tutorial/cors.md"
+        ]
+      },
+      {
+        "query": "dependency injection with yield and cleanup code",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md",
+          "tutorial\\dependencies\\dependencies-with-yield.md"
+        ],
+        "relevant": [
+          "tutorial/dependencies/dependencies-with-yield.md"
+        ]
+      },
+      {
+        "query": "how to let users upload a file",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md",
+          "tutorial\\request-files.md"
+        ],
+        "relevant": [
+          "tutorial/request-files.md"
+        ]
+      },
+      {
+        "query": "add extra validation to query parameters",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\query-params-str-validations.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\query-params-str-validations.md"
+        ],
+        "relevant": [
+          "tutorial/query-params-str-validations.md"
+        ]
+      },
+      {
+        "query": "set the default HTTP status code for an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-change-status-code.md",
+          "tutorial\\response-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\custom-response.md"
+        ],
+        "relevant": [
+          "tutorial/response-status-code.md"
+        ]
+      },
+      {
+        "query": "return a different status code than the default at runtime",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\response-status-code.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md",
+          "advanced\\response-change-status-code.md",
+          "advanced\\additional-status-codes.md"
+        ],
+        "relevant": [
+          "advanced/response-change-status-code.md"
+        ]
+      },
+      {
+        "query": "set cookies on a response",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-cookies.md",
+          "advanced\\response-headers.md",
+          "reference\\responses.md"
+        ],
+        "relevant": [
+          "advanced/response-cookies.md"
+        ]
+      },
+      {
+        "query": "how to write tests for a FastAPI app",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\testing.md",
+          "deployment\\versions.md",
+          "tutorial\\testing.md",
+          "tutorial\\testing.md",
+          "advanced\\async-tests.md"
+        ],
+        "relevant": [
+          "tutorial/testing.md"
+        ]
+      },
+      {
+        "query": "secure an API with OAuth2 and JWT tokens",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\oauth2-jwt.md",
+          "tutorial\\security\\simple-oauth2.md",
+          "tutorial\\security\\oauth2-jwt.md"
+        ],
+        "relevant": [
+          "tutorial/security/oauth2-jwt.md"
+        ]
+      },
+      {
+        "query": "serve static files like images or CSS",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "reference\\staticfiles.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "advanced\\templates.md",
+          "tutorial\\static-files.md"
+        ],
+        "relevant": [
+          "tutorial/static-files.md"
+        ]
+      },
+      {
+        "query": "deploy a FastAPI app using Docker",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "tutorial\\first-steps.md",
+          "index.md",
+          "deployment\\concepts.md",
+          "deployment\\fastapicloud.md"
+        ],
+        "relevant": [
+          "deployment/docker.md"
+        ]
+      },
+      {
+        "query": "run the app behind a reverse proxy like nginx",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md",
+          "advanced\\behind-a-proxy.md"
+        ],
+        "relevant": [
+          "advanced/behind-a-proxy.md"
+        ]
+      },
+      {
+        "query": "add websocket support to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md",
+          "advanced\\websockets.md"
+        ],
+        "relevant": [
+          "advanced/websockets.md"
+        ]
+      },
+      {
+        "query": "define deeply nested request body models",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md",
+          "tutorial\\body-nested-models.md"
+        ],
+        "relevant": [
+          "tutorial/body-nested-models.md"
+        ]
+      },
+      {
+        "query": "mix path, query, and body parameters together",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body.md",
+          "tutorial\\body-multiple-params.md",
+          "tutorial\\body-multiple-params.md"
+        ],
+        "relevant": [
+          "tutorial/body-multiple-params.md"
+        ]
+      },
+      {
+        "query": "validate that a path parameter is within a numeric range",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md",
+          "tutorial\\path-params-numeric-validations.md"
+        ],
+        "relevant": [
+          "tutorial/path-params-numeric-validations.md"
+        ]
+      },
+      {
+        "query": "return custom error responses to the client",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\custom-response.md",
+          "advanced\\response-directly.md",
+          "tutorial\\handling-errors.md",
+          "advanced\\custom-response.md",
+          "advanced\\custom-response.md"
+        ],
+        "relevant": [
+          "tutorial/handling-errors.md"
+        ]
+      },
+      {
+        "query": "generate a typed client SDK from the API",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md",
+          "advanced\\generate-clients.md"
+        ],
+        "relevant": [
+          "advanced/generate-clients.md"
+        ]
+      },
+      {
+        "query": "stream server-sent events to the browser",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "tutorial\\server-sent-events.md",
+          "reference\\sse.md",
+          "tutorial\\server-sent-events.md"
+        ],
+        "relevant": [
+          "reference/sse.md",
+          "tutorial/server-sent-events.md"
+        ]
+      },
+      {
+        "query": "run the app with multiple worker processes",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "deployment\\docker.md",
+          "deployment\\server-workers.md",
+          "deployment\\docker.md",
+          "deployment\\docker.md",
+          "deployment\\concepts.md"
+        ],
+        "relevant": [
+          "deployment/server-workers.md"
+        ]
+      },
+      {
+        "query": "mount one FastAPI app inside another",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md",
+          "advanced\\sub-applications.md"
+        ],
+        "relevant": [
+          "advanced/sub-applications.md"
+        ]
+      },
+      {
+        "query": "render HTML using Jinja templates",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\templates.md",
+          "reference\\templating.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md",
+          "advanced\\templates.md"
+        ],
+        "relevant": [
+          "advanced/templates.md"
+        ]
+      },
+      {
+        "query": "accept file uploads and form fields in the same request",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "tutorial\\request-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-forms-and-files.md",
+          "tutorial\\request-files.md"
+        ],
+        "relevant": [
+          "tutorial/request-forms-and-files.md"
+        ]
+      },
+      {
+        "query": "add HTTP Basic Auth to an endpoint",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md",
+          "advanced\\security\\http-basic-auth.md"
+        ],
+        "relevant": [
+          "advanced/security/http-basic-auth.md"
+        ]
+      },
+      {
+        "query": "notify another app's API from your own app using webhooks",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md",
+          "advanced\\openapi-webhooks.md"
+        ],
+        "relevant": [
+          "advanced/openapi-webhooks.md"
+        ]
+      },
+      {
+        "query": "use GraphQL instead of REST",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md",
+          "how-to\\graphql.md"
+        ],
+        "relevant": [
+          "how-to/graphql.md"
+        ]
+      },
+      {
+        "query": "migrate an app from Pydantic v1 to v2",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md",
+          "how-to\\migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ],
+        "relevant": [
+          "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md"
+        ]
+      },
+      {
+        "query": "disable the interactive docs UI in production",
+        "recall_at_k": 0.0,
+        "reciprocal_rank": 0.0,
+        "retrieved": [
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\custom-docs-ui-assets.md",
+          "how-to\\conditional-openapi.md",
+          "tutorial\\metadata.md",
+          "how-to\\conditional-openapi.md"
+        ],
+        "relevant": [
+          "how-to/conditional-openapi.md"
+        ]
+      },
+      {
+        "query": "understand async def versus regular def in path operations",
+        "recall_at_k": 1.0,
+        "reciprocal_rank": 1.0,
+        "retrieved": [
+          "async.md",
+          "advanced\\dataclasses.md",
+          "tutorial\\dependencies\\index.md",
+          "async.md",
+          "tutorial\\stream-json-lines.md"
+        ],
+        "relevant": [
+          "async.md"
+        ]
+      }
+    ]
+  }
+}
