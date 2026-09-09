@@ -24,23 +24,23 @@ FastAPI GitHub repo (docs/en/docs, 152 markdown files)
         │          • heading_aware_chunk (splits on markdown headings first)
         │
         ├──────────────────────┬─────────────────────┐
-        ▼                      ▼                      │
- bm25_retriever.py      embeddings.py                 │
- (keyword search,       + vector_store.py             │
-  rank_bm25)             (dense search,                │
-        │                 sentence-transformers)       │
-        └──────────┬───────────┘                       │
-                    ▼                                   │
-          hybrid_retriever.py                           │
-          (Reciprocal Rank Fusion)                       │
-                    │                                     │
-                    ▼                                     │
-            reranker.py                                   │
-     (cross-encoder, 2nd-stage refinement                  │
-      over top-20 hybrid candidates)                       │
-                    │                                       │
-                    ▼                                       │
-             generator.py ◄───────────────────────────────┘
+        ▼                      ▼                     │
+ bm25_retriever.py      embeddings.py                │
+ (keyword search,       + vector_store.py            │
+  rank_bm25)             (dense search,              │
+        │                 sentence-transformers)     │
+        └──────────┬───────────┘                     │
+                    ▼                                │
+          hybrid_retriever.py                        │
+          (Reciprocal Rank Fusion)                   │
+                    │                                │
+                    ▼                                │
+            reranker.py                              │
+     (cross-encoder, 2nd-stage refinement            │
+      over top-20 hybrid candidates)                 │
+                    │                                │
+                    ▼                                │
+             generator.py ◄──────────────────────────┘
         (local LLM, llama-cpp-python)
                     │
                     ▼
@@ -77,9 +77,9 @@ Real output from `python eval/run_eval.py` against the actual FastAPI docs corpu
 |---|---|---|
 | BM25 + fixed-size chunks | 0.900 | 0.744 |
 | BM25 + heading-aware chunks | 0.917 | 0.739 |
-| Dense only + heading-aware chunks | *[run locally — see Setup]* | |
-| Hybrid (BM25 + dense) + heading-aware chunks | *[run locally — see Setup]* | |
-| Hybrid + cross-encoder reranker | *[run locally — see Setup]* | |
+| Dense only + heading-aware chunks | 1.000 | 0.894 |
+| Hybrid (BM25 + dense) + heading-aware chunks | 0.933 | 0.817 |
+| Hybrid + cross-encoder reranker | 1.000 | 0.829 |
 
 The three dense/hybrid/reranker rows above fill in automatically on a machine with Hugging Face access — either your own machine, or the `full-pipeline` CI job (see below), which uploads `eval_results.json` as a build artifact you can download.
 
